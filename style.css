@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: cornflowerblue;
+}
+section {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#home {
+    background-color: #317491;
+    height: 150px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+img {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+#about{
+    margin-top: 20px;;
+}
+.container h3{
+    margin-top: 20px;
+    color: #B0DAEC;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#about{
+    background-color: white;
+    height: 150px;
+    
+
+}
