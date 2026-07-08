@@ -7,36 +7,146 @@
 a {
     color: cornflowerblue;
 }
+body {
+    background: #f4f9fb;
+    color: #23404d;
+}
 section {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+    text-align: left;
 }
 #home {
     background-color: #317491;
-    height: 150px;
-    padding: 15px;
-    color: rgb(255, 255, 255);
+    height: 200px;
+    padding: 50px;
+    color: #ffff;
     text-align: center;
 }
-img {
-    width: 300px;
-    border-radius: 15px;
+.container4 img {
+    width: 100%;
+    max-width: 300px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    margin-top: 20px;
+    margin-bottom: 18px;
 }
-
-#about{
-    margin-top: 20px;;
+.container4 h3 {
+    margin-bottom: 12px;
+    color: #317491;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .container h3{
-    margin-top: 20px;
-    color: #B0DAEC;
+    margin: 20px 0 15px;
+    color: #317491;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    letter-spacing: 1px;
 }
-#about{
+.section-title {
+    width: min(1100px, 100%);
+    margin: 0 auto 24px;
+    color: #317491;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffff;
+    height: 100px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #317491;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.logo img {
+    width: 50px;
+    display: relative;
+}
+#about {
     background-color: white;
-    height: 150px;
-    
+}
 
+#about .container,
+#skills .container,
+#container {
+    width: min(950px, 100%);
+    margin: 0 auto;
+}
+
+#about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#about ul, #skills ul {
+    list-style: none;
+    display: grid;
+    gap: 12px;
+}
+#about li {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 12px 14px;
+    border: 1px solid #d9edf5;
+}
+
+#skills {
+    background-color: #a4e4ff4a;
+    text-align: center;
+    padding: 50px;
+}
+
+#projects {
+    background: #eef8fc;
+}
+
+.container4 {
+    width: min(1100px, 100%);
+    margin: 0 auto;
+    display: grid;
+    gap: 22px;
+}
+
+#contact {
+    background: #317491;
+    color: white;
+}
+
+#container {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+#container h3 {
+    margin-bottom: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+}
+
+#container h4 {
+    margin-bottom: 18px;
+}
+
+#container h5 {
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+#container a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 30px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    text-align: center;
 }
