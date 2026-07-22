@@ -50,6 +50,7 @@ section {
     top: 0;
     flex-wrap: wrap;
     gap: 12px;
+    z-index: 1000;
 }
 
 .nav-right {
@@ -78,6 +79,7 @@ section {
     font-size: 1rem;
     font-weight: 600;
 }
+menu 
 
 #home {
     background: linear-gradient(135deg, var(--accent), #5ca4c3);
@@ -228,6 +230,12 @@ button {
     text-decoration: none;
     border-radius: 6px;
     text-align: center;
+}
+.skill-card:hover,
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s ease;
 }
 
 #contact {
