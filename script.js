@@ -21,3 +21,4 @@ function toggleTheme() {
 document.getElementById("contact").style.fontFamily = "monospace, monospace";
 
 document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
+showWelcomeMessage();
