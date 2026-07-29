@@ -6,8 +6,6 @@
     --muted: #eef8fc;
 }
 
-/*CSS koooo*/
-
 * {
     padding: 0;
     margin: 0;
@@ -82,6 +80,13 @@ section {
     font-weight: 600;
 }
 
+.menu a:hover {
+    background-color: var(--text);
+    color: var(--panel);
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
 #home {
     background: linear-gradient(135deg, var(--accent), #5ca4c3);
     color: #ffffff;
@@ -146,6 +151,11 @@ button {
     border-radius: 8px;
     padding: 12px 14px;
     border: 1px solid #d9edf5;
+}
+.about-text li:hover {
+    background: var(--accent);
+    color: #ffffff;
+    transition: all 0.3s ease;
 }
 
 #skills {
@@ -273,6 +283,7 @@ body.dark .contact-card h4,
 body.dark .contact-card a,
 body.dark .contact-card footer {
     color: var(--contact-text);
+    
 }
 
 .contact-card h4 {
@@ -282,6 +293,13 @@ body.dark .contact-card footer {
 .contact-card a {
     color: #ffffff;
     font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: auto;
+    padding: 10px 14px;
+    background: var(--accent);
+    border-radius: 6px;
+    text-align: center;
 }
 
 .info-box {
